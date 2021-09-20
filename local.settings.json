@@ -1,0 +1,18 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=storageaccountsmart84d6;AccountKey=v1++ylhk4Nb/gjH5dMAN1Hq16H12vC81/WV1PjAD+kKmYVDQX+YXiNaEzJX3JWF9YmU8HBqRyb0iA3ZkberQfQ==;EndpointSuffix=core.windows.net",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "Connectionstring": "Endpoint=sb://eventhubtrigger.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=vwHzIf02OPC0UIR632TGrkQebgy1GXrCCugYdMIhrY4=;EntityPath=fanboxeventhub",
+    "AppSettings:baseUrl": "https://fanapistaging.azurewebsites.net",
+    "AppSettings:connectionString": "Server=tcp:fanserverstaging.database.windows.net,1433;Initial Catalog=smartfan;Persist Security Info=False;User ID=smartfan;Password=Xavor@1999;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;",
+    "AppSettings:notificationhubConnectionstring": "Endpoint=sb://nsfanboxnotificationhub.servicebus.windows.net/;SharedAccessKeyName=DefaultFullSharedAccessSignature;SharedAccessKey=1BSSuuC+aUpBvlDqnM6FMzyzAZuSRgHfBb8EO/xtheQ=",
+    "AppSettings:notificationhubName": "FanBoxNotificationHub",
+    "AppSettings:setStatus": "/api/SmartDeviceStatus/SetDeviceStatus",
+    "AppSettings:setAlarms": "/api/SmartDeviceStatus/SetDeviceAlarms",
+    "AppSettings:sendAcknowledgement": "/api/Device/SendAcknowledgement/",
+    "AppSettings:sendDeviceState": "/api/Device/SendDeviceState/",
+    "AppSettings:speedCommand": "/api/Device/ChangeDeviceSpeed/",
+    "AppSettings:powerCommand": "/api/Device/ChangeDevicePowerStatus/"
+  }
+}

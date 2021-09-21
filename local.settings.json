@@ -3,7 +3,7 @@
   "Values": {
     "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=fnappstoragesmartfan;AccountKey=5GqdpD+dHcclsyDk+JBhtDsrn36j7FmytE6N70gE5TeEunxNnnnRcUPy9YsgU7CN2kEuSgq+9NJXkJvAY9Xj1Q==;EndpointSuffix=core.windows.net",
     "FUNCTIONS_WORKER_RUNTIME": "dotnet",
-    "Connectionstring": "Endpoint=sb://autosfeventhubnmsp.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=rMIeLJNoLMfBelPbbAfWRxbzzKYKDxNJmFSofmi7zSE=;EntityPath=fanboxeventhub",
+    "Connectionstring": "Endpoint=sb://autosfeventhubnmsp.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=rMIeLJNoLMfBelPbbAfWRxbzzKYKDxNJmFSofmi7zSE=;EntityPath=autosfeventhub",
     "AppSettings:baseUrl": "https://smartfanbox-api.azurewebsites.net",
     "AppSettings:connectionString": "Server=tcp:autosfsqlserver.database.windows.net,1433;Initial Catalog=autosfdatabase;Persist Security Info=False;User ID=xadmin;Password=Xavor12345678;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;",
     "AppSettings:notificationhubConnectionstring": "Endpoint=sb://autosfnotificationhubnmsp.servicebus.windows.net/;SharedAccessKeyName=DefaultFullSharedAccessSignature;SharedAccessKey=Lx8RAh3Djd5PrmF4gB+Zgs1IQHlI20psLqiTvBRHJ3Q=",

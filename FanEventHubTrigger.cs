@@ -34,7 +34,7 @@ namespace Xavor.Function
         #endregion
 
         [FunctionName("FanEventHubTrigger")]
-        public static async Task Run([EventHubTrigger("fanboxeventhub", Connection = "Connectionstring")] EventData[] events, ILogger log, ExecutionContext context)
+        public static async Task Run([EventHubTrigger("autosfeventhub", Connection = "Connectionstring")] EventData[] events, ILogger log, ExecutionContext context)
         {
             var exceptions = new List<Exception>();
 
